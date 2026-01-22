@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.section-header{
+    margin-bottom: 13px;
+    margin: auto;
+    text-align: center;
+    max-width: 650px;
+}
+.section-header h2{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.container{
+    max-width: 1250px;
+    margin: auto;
+}
+
+.btn{
+    padding: 8px 20px;
+    border-radius: 8px;
+    background-color: #FF5400;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+img{
+    max-width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    
+    padding: 7px 2px;
+}
+
+nav > div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+nav > div > img{
+    width: 50px;
+    height: 50px;
+}
+nav > div > h1{
+    font-weight: 800;
+    font-size: 26px;
+}
+
+nav > div > h1 > span{
+    color: #FF5400;
+}
+
+nav > ul{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+nav > ul  a{
+    color: #424247;
+}
+
+
+
+
+/* Banner / Hero */
+
+.banner-section{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.432)), url('../assets/img/Group\ 13\ \(1\)\ \(1\).png');
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.banner-section > div > h2{
+    font-weight: 700;
+    font-size: 32px;
+}
+.banner-section > div > p{
+    max-width: 650px;
+}
+.banner-section > div{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 10px;
+}
+.banner-section > div > form{
+    background-color: rgba(255, 255, 255, 0.349);
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.banner-section > div> form select,
+.banner-section > div> form input[type="text"]{
+    padding: 16px 16px;
+    border-radius: 8px;
+    background-color: white;
+    outline: none;
+    border: none;
+    display: block;
+    font-size: 16px;
+    gap: 15px;
+    color: #00000085;
+}
+
+
+
+
+
+.rounded-mic-parent{
+    
+    position: relative;
+    
+}
+.banner-section .rounded-mic-parent .rounded-shape{
+    
+    width: 170px;
+}
+.banner-section .rounded-mic-parent .mic{
+    width: 70px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.banner-section .rounded-mic-parent span{
+    background-color: #00FF88;
+    color: #1A0B2E;
+    padding: 6px 10px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 53%;
+    top: 2px;
+}
+
+
+
+
+
+
+
+
+.destination-section{
+    margin: 60px auto;
+}
+
+.destination{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: 300px;
+    gap: 18px;
+}
+
+.destination img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.destination div{
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.destination div:nth-child(1), .destination div:nth-child(2){
+    grid-column: span 6;
+}
+
+
+.destination div:nth-child(3){
+    grid-column: span 4;
+}
+.destination div:nth-child(4){
+    grid-column: span 5;
+}
+.destination div:nth-child(5){
+    grid-column: span 3;
+}
+
+
+.destination div:nth-child(6){
+    grid-column: span 5;
+}
+.destination div:nth-child(7){
+    grid-column: span 7;
+}
+
+
+
+.destination strong{
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
